@@ -33,8 +33,7 @@ int numberofdigits(int number)
 
 int sumofcubes(int num)
 {
-    int rem, sum=0, digit;
-    digit=numberofdigits(num);
+    int rem, sum=0, digit=numberofdigits(num);
     while(num>0)
     {
         rem=num%10;
