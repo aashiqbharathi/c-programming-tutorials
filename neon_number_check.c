@@ -1,3 +1,4 @@
+//Neon numbers include 0,1,9.
 #include<stdio.h>
 int neonchk(int n);
 int main()
